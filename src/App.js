@@ -1,22 +1,12 @@
-import React from 'react';
-  import Header from './components/Header';
-  import Hero from './components/Hero';
-  import Services from './components/Services';
-  import Tours from './components/Tours';
-  import Reviews from './components/Reviews';
-  import Footer from './components/Footer';
+import React from "react";
+import Auth from "./pages/Auth";
 
-  function App() {
-    return (
-      <div className="App">
-        <Header />
-        <Hero />
-        <Services />
-        <Tours />
-        <Reviews />
-        <Footer />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Auth />
+    </div>
+  );
+}
 
-  export default App;
+export default App;
